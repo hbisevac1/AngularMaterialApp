@@ -6,12 +6,12 @@ import {MatNativeDateModule} from '@angular/material/core';
 
 /** @title Basic datepicker */
 @Component({
-  selector: 'datepicker-overview-example',
-  templateUrl: 'datepicker-overview-example.html',
+  selector: 'datepicker',
+  templateUrl: 'datepicker.html',
   standalone: true,
   imports: [MatFormFieldModule, MatInputModule, MatDatepickerModule, MatNativeDateModule],
 })
-export class DatepickerOverviewExample {}
+export class Datepicker {}
 
 
 /**  Copyright 2023 Google LLC. All Rights Reserved.

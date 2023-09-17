@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DatepickerOverviewExample } from './datepicker/datepicker-overview-example';
+import { Datepicker } from './datepicker/datepicker';
 import { SlideToggleOverviewExample } from './slide-bar/slide';
 import { StepperOverviewExample } from './stepper/stepper';
 import { PhotoListComponent } from './photo-list/photo-list.component';
@@ -25,7 +25,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DatepickerOverviewExample,
+    Datepicker,
     StepperOverviewExample,
     MatCardModule,
     MatPaginatorModule,
