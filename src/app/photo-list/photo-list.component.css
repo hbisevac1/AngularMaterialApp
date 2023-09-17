@@ -1,0 +1,18 @@
+.photo {
+    width: 300px;
+    margin: 16px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .photo-imag{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+  }
+
+.mat-paginator {
+    justify-content: center;
+    display: flex;
+  }

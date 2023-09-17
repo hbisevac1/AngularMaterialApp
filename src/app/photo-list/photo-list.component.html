@@ -1,0 +1,13 @@
+
+<h1>Card and paginator</h1>
+<mat-card *ngFor="let photo of paginatedPhotos" class="photo">
+    <img [src]="photo.url" alt="{{photo.title}}" class="photo-img">
+    <mat-card-content>
+        <p>{{photo.title}}</p>
+    </mat-card-content>
+</mat-card>
+
+<mat-paginator [length] = "photos.length"
+    [pageSize] = "pageSize"
+    (page) = "onPageChange($event)"
+    ></mat-paginator>

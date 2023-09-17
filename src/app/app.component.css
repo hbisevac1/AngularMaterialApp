@@ -1,0 +1,5 @@
+
+mat-grid-tile {
+    background: lightblue;
+    transition: background-color 0.3s;
+  }
